@@ -1,35 +1,22 @@
-# app-dev
-**Spy X Family**
+using System; 
+                                          
+ public class MyCsharp 
+ { 
+         public static void Main(string[] args) 
+         { 
+                 // Insert code from line below this comment where it instantiates the MyCsharp object into variable named pin, then call the method named printName(String name); 
 
-A comedy anime series of a Spy, Assassin and a Psychic in a fake Family
-
-**Main Characters**
-
-*Code Name: Twilight* — ~~A Spy~~. The Father of the Family.
-                        Reliable, ✨ elegant ✨, and always
-                        busy from his ~~assignments~~ work.
-                        
-*Code Name: Thorn Princess* — ~~An assassin~~. Real name is 
-                        Yor Forger.
-                        The Mother. Strong, ❤️sweet and caring❤️.
-                        Always trying her best to be a great mother.
-
-                        
-*Code Name: Test Subject 007* - ~~A psychic~~. Adoptive name is Anya Forger.
-                        The daughter. Clever, 🤪bubbly and cheerful🤪. She
-                        is the cupid for her mother and father.
+     // Expected Line 1, replace this comment with code on pull request
  
+           MyCsharp RieM = new MyCsharp();
 
+     // Expected Line 2, replace this comment with code on pull request 
 
-
-
-
-
-
-
-
-
-
-
-
-
+           RieM.printName("Loridel M. Maloles");
+         } 
+          
+         public void printName(string name) 
+         { 
+                 Console.WriteLine("Hello! My name is " + name); 
+         } 
+ }
